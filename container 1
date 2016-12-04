@@ -1,0 +1,38 @@
+# container = list
+# type= 데이터 형식을 알려쥼
+# [] = [] 안에 콤마로 연결되어 있는 데이타들이 하나의 리스트다.
+# 리스트의 번호는 0 부터 시작됨.
+# 원소 = element
+# 색인 = index [0,1,2]
+print(type('egoing'))
+name='egoing'
+print(name)
+print(type(['egoing','leezchwe','graphittie']))
+names= ['egoing','leezchwe','graphittie']
+print(names)
+print(names[1]) # element
+print(names[0]) # element
+egoing = ['programmer','seoul',25, True]
+# string / integer / boolean
+# 서울을 부산으로 바꾸고싶다면
+egoing[1] = 'busan'
+print(egoing)
+
+'''>>> names =['a','b','c',]
+# >>> 'a' in names
+# True
+# >>> 'd' in names
+# False
+# >>> nums =[1,100,123123]
+# >>> len(nums)
+# 3
+# >>> min(nums)
+# 1
+# >>> max(nums)
+# 123123
+# >>> nums.append(1004)
+# >>> print(nums)
+# [1, 100, 123123, 1004]
+# >>> nums.reverse()
+# >>> print(nums)
+# [1004, 123123, 100, 1] '''
