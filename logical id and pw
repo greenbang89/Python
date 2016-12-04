@@ -1,0 +1,18 @@
+#input = 22
+#real = 11
+#if real == input
+#  puts("hello!")
+#end
+
+#if real != input
+#  puts("who are you?")
+#end
+# 아이디를 입력해주세요
+# 숫자 11 과 문자 11 은 다르기때문에
+in_str = input ("Please print your id below. \n")
+real_egoing = "egoing"
+real_k8805 = "k8805"
+if real_egoing == in_str or real_k8805 == in_str:
+  print("hello!")
+else:
+    print("who are you?")
