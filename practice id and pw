@@ -1,0 +1,26 @@
+#input = 22
+#real = 11
+#if real == input
+#  puts("hello!")
+#end
+
+#if real != input
+#  puts("who are you?")
+#end
+# 아이디를 입력해주세요
+# 비밀번호를 입력해주세요
+# hello!
+# 잘못된 비밀번호입니다
+# 잘못된 아이디입니다
+# 숫자 11 과 문자 11 은 다르기때문에
+input_id = input ("Please print your id below. \n")
+input_pwd = input ("Please print your password below. \n")
+real_id = "egoing"
+real_pwd = "11"
+if real_id == input_id:
+    if real_pwd == input_pwd:
+        print("hello!")
+    else:
+        print("wrong password")
+else:
+    print("wrong id")
