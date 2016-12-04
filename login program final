@@ -1,0 +1,8 @@
+input_id = input ("Please print your id below. \n")
+input_pwd = input ("Please print your password below. \n")
+real_id = "egoing"
+real_pwd = "11"
+if real_id == input_id and real_pwd == input_pwd:
+    print("hello!")
+else:
+    print("fail to log in!")
